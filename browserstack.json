@@ -1,0 +1,29 @@
+{
+    "auth": {
+        "username": "username",
+        "access_key": "access_key"
+    },
+    "browsers": [
+        {
+            "browser": "chrome",
+            "os": "OS X Catalina",
+            "versions": [
+                "81"
+            ]
+        }
+    ],
+    "run_settings": {
+        "parallels": 1,
+        "cypress_proj_dir": "./",
+        "project_name": "File upload",
+        "build_name": "File Upload",
+        "npm_dependencies": {
+            "cypress-file-upload": "4.0.7"
+        }
+    },
+    "connection_settings": {
+        "local": false,
+        "local_identifier": null
+    },
+    "disable_usage_reporting": true
+}
